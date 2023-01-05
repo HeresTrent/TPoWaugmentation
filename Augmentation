@@ -1,0 +1,5 @@
+local args = {
+    [1] = "Help"
+}
+
+game:GetService("ReplicatedStorage").Events.BonnieAbilities:FireServer(unpack(args))
